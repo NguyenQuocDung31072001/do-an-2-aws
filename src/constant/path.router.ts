@@ -1,0 +1,21 @@
+export const PathRouter = {
+  HOME: "/",
+  ABOUT: "/about",
+  PRODUCT: "/product",
+  HANDBOOK: "/handbook",
+  HANDBOOK_VIEW: "/handbook/view",
+  DETAIL: "/product_detail",
+  CART: "/cart",
+  LOGIN: "/auth/login",
+  REGISTER: "/auth/register",
+  RESET_PASSWORD: "/auth/reset_password",
+  CHECKOUT: "/checkout",
+  SHIPPING: "/checkout/shipping",
+  PAYMENT: "/checkout/payment",
+  CHECKOUT_RESULT: "/checkout/result",
+  PROFILE: "/profile",
+  PROFILE_PURCHASES: "/profile/purchases",
+  PROFILE_CHANGE_PASSWORD:
+    "/profile/change-password",
+  LOGOUT: "/profile/logout",
+}
